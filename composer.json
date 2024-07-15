@@ -1,0 +1,15 @@
+{
+    "name": "work/k-test_bot",
+    "description": "Telegram Bot",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Kiryl Savitski",
+            "email": "kirill.savickiy@yahoo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "longman/telegram-bot": "^0.83.1"
+    }
+}
