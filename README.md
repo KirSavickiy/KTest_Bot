@@ -50,7 +50,7 @@ The bot provides users with access to top-secret information after successfully 
     https://api.telegram.org/<TELEGRAM_BOT_TOKEN>/setWebhook?url=<HOOK_URL>
     ```
 
-5. Set up the database. Import the `database.sql` file located in the repository:
+5. Set up the database. Import the `telegram_bd.sql` file located in the repository:
 
     ```bash
     mysql -u your_user -p your_database < telegram_bd.sql
