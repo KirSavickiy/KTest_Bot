@@ -9,10 +9,11 @@
         }
     ],
 
-    "minimum-stability": "stable",
     "require": {
         "longman/telegram-bot": "^0.83.1",
-        "vlucas/phpdotenv": "^5.6"
+        "vlucas/phpdotenv": "^5.6",
+        "php": ">=8.2",
+        "ext-pdo": "*"
     },
 
     "autoload": {
@@ -20,4 +21,5 @@
             "App\\": "app/"
         }
     }
+
 }
